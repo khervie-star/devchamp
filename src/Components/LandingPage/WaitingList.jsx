@@ -22,10 +22,10 @@ const WaitingList = () => {
                 type="email"
                 name="email"
                 className="flex-grow bg-transparent focus:outline-0 pl-4 text-white font-semibold placeholder:text-white/75 text-[12px] md:text-base"
-                // placeholder="yourmail@example.com"
+                placeholder="yourmail@example.com"
               />
-              <div className="w-[180px] bg-darkBlue rounded-full text-white font-semibold font-outfit flex justify-center items-center cursor-pointer">
-               m
+              <div className="w-[140px] md:w-[180px] bg-darkBlue rounded-full text-white font-semibold font-outfit flex justify-center items-center cursor-pointer">
+                Save
               </div>
             </div>
           </div>
