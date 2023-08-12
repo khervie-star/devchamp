@@ -1,13 +1,104 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FAQ COMPONENT  */
+.row-title-text {
+  font-weight: 500;
+  font-family: "Outfit";
+  font-size: 21px;
+  color: #042b4e;
+}
+
+.row-content-text {
+  color: gray !important;
+  font-family: "Raleway";
+}
+
+.faq-title h2 {
+  font-size: 45px !important;
+  font-weight: 600;
+  padding-bottom: 24px;
+  color: #042b4e !important;
+  font-family: "Outfit";
+}
+
+.faq-row {
+  padding: 16px 0 !important;
+}
+
+.row-title .icon-wrapper {
+  top: 35px !important;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 600;
+  margin: 0 10px;
+}
+nav a,
+nav a:after,
+nav a:before {
+  transition: all 0.5s;
+}
+nav a:hover {
+  color: #555;
+}
+
+/* stroke */
+nav a {
+  position: relative;
+}
+nav a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: red;
+  height: 1px;
+}
+nav a:hover:after {
+  width: 100%;
 }
