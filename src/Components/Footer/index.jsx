@@ -137,7 +137,7 @@ const Footer = () => {
                       <div className="text-yellow mt-1">
                         <HiEnvelope />
                       </div>
-                      <div className="text-white">support@devchamp.io</div>
+                      {/* <div className="text-white">support@devchamp.io</div> */}
                     </Link>
                     <Link
                       className="location flex items-start gap-2"

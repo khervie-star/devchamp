@@ -37,14 +37,14 @@ const Counters = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-screen h-full">
+    <div className="w-screen h-full px-[16px]">
       <div className="container mx-auto">
-        <div className="w-[75%] mx-auto py-[100px] bg-red rounded-[30px] ">
+        <div className="w-full md:w-[75%] mx-auto py-[50px] md:py-[100px] bg-red rounded-[30px] ">
           <div className="grid grid-cols-1 md:grid-cols-4 items-center justify-center text-center gap-y-[50px] divide-y md:divide-y-0 md:divide-x">
             {items.map((item, i) => (
-              <div key={i} className="flex flex-col gap-2 text-white">
-                <h4 className="font-semibold text-[36px]">{item.amount}</h4>
-                <p className="font-normal text-[20px]">{item.name}</p>
+              <div key={i} className="flex flex-col gap-1 md:gap-2 text-white pt-8">
+                <h4 className="font-semibold text-[28px] md:text-[36px]">{item.amount}</h4>
+                <p className="font-normal text-base md:text-[20px]">{item.name}</p>
               </div>
             ))}
           </div>

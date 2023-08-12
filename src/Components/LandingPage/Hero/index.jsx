@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div className="w-screen h-full md:h-[85vh] flex justify-center items-center relative px-[16px] md:px-[50px] py-[60px] md:py-[100px] md:pt-0">
       <div className="container mx-auto flex  flex-col md:flex-row items-center gap-[20px] md:gap[75px]">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 py-[75px] md:py-0">
           <Pill>100% Satisfaction Guaranteed</Pill>
           <h4 className="mb-[30px] text-darkBlue text-[36px] md:text-[56px] font-semibold font-outfit">
             Unleash Your Potential:{" "}
