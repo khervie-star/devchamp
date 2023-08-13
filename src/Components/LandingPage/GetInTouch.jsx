@@ -13,30 +13,30 @@ const GetInTouch = () => {
             <p className="text-center font-medium font-montserrat text-[18px] text-white">
               Reach out to us using any of the channels{" "}
             </p>
-            <div className="my-10 flex flex-col md:flex-row justify-center items-center gap-[100px] mt-[100px]">
+            <div className="my-10 flex flex-col md:flex-row justify-center items-center gap-[50px] md:gap-[100px] mt-[50px] md:mt-[100px]">
               <div className="flex flex-col gap-[30px]">
-                <div className="w-[80px] h-[80px] bg-white rounded-full flex justify-center items-center text-[30px] text-darkBlue text-center mx-auto cursor-pointer hover:-translate-y-3 duration-500">
+                <div className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] bg-white rounded-full flex justify-center items-center text-[17px]  md:text-[30px] text-darkBlue text-center mx-auto cursor-pointer hover:-translate-y-3 duration-500">
                   <FaPhoneVolume />
                 </div>
-                <div className="text-center text-white font-semibold text-[17px] cursor-pointer">
+                <div className="text-center text-white font-semibold text-[15px] md:text-[17px] cursor-pointer">
                   <p>Call</p>
                   <p>+2348180746707</p>
                 </div>
               </div>
               <div className="flex flex-col gap-[30px]">
-                <div className="w-[80px] h-[80px] bg-white rounded-full flex justify-center items-center text-[30px] text-darkBlue text-center mx-auto cursor-pointer hover:-translate-y-3 duration-500">
+                <div className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] bg-white rounded-full flex justify-center items-center text-[17px]  md:text-[30px] text-darkBlue text-center mx-auto cursor-pointer hover:-translate-y-3 duration-500">
                   <FaWhatsapp />
                 </div>
-                <div className="text-center text-white font-semibold text-[17px] cursor-pointer">
+                <div className="text-center text-white font-semibold text-[15px] md:text-[17px] cursor-pointer">
                   <p>WhatsApp</p>
                   <p>+2348180746707</p>
                 </div>
               </div>
               <div className="flex flex-col gap-[30px]">
-                <div className="w-[80px] h-[80px] bg-white rounded-full flex justify-center items-center text-[30px] text-darkBlue text-center mx-auto cursor-pointer hover:-translate-y-3 duration-500">
+                <div className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] bg-white rounded-full flex justify-center items-center text-[17px]  md:text-[30px] text-darkBlue text-center mx-auto cursor-pointer hover:-translate-y-3 duration-500">
                   <FaRegEnvelope />
                 </div>
-                <div className="text-center text-white font-semibold text-[17px] cursor-pointer">
+                <div className="text-center text-white font-semibold text-[15px] md:text-[17px] cursor-pointer">
                   <p>Email</p>
                   <p>support@devchamp.io</p>
                 </div>

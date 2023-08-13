@@ -14,7 +14,7 @@ import WaitingList from "../../Components/LandingPage/WaitingList";
 const LandingPage = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Counters />
       <AboutUs />

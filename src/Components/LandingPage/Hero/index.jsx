@@ -32,15 +32,15 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2">
-          <div className="flex justify-center items-end gap-10">
-            <div className="hidden md:block  w-1/2 h-full md:w-[300px] md:h-[500px] rounded-full border-2 border-darkBlue border-solid">
+          <div className="flex justify-center items-end gap-10 w-full box-border">
+            <div className="w-2/3 h-[300px] md:w-[300px] md:h-[500px] rounded-full border-2 border-darkBlue border-solid ml-[30px] md:ml-0">
               <img
                 src={hero_img_2}
                 alt=""
                 className="h-full object-cover rounded-full object-right ml-[-20px]"
               />
             </div>
-            <div className="hidden md:block w-[200px] h-[300px] rounded-full border-2 border-solid border-darkBlue">
+            <div className="w-1/3 h-[200px] md:w-[200px] md:h-[300px] rounded-full border-2 border-solid border-darkBlue">
               <img
                 src={hero_img_1}
                 alt=""

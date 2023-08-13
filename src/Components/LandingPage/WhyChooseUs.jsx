@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
         <div>
           <Pill>Why Choose us</Pill>
           <div className=" flex flex-col md:flex-row md:justify-between items-center mb-6">
-            <h4 className="text-darkBlue text-[45px] font-semibold font-outfit w-full md:w-2/5">
+            <h4 className="text-darkBlue text-[32px] md:text-[45px] font-semibold font-outfit w-full md:w-2/5">
               Benefits You Get When You Use Our Services
             </h4>
             <div className="w-full md:w-1/3">
