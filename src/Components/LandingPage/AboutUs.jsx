@@ -16,7 +16,7 @@ const AboutUs = () => {
             </div>
             <h4 className="text-darkBlue text-[32px] md:text-[40px] font-semibold font-outfit mb-7">
               Empowering Innovators: Our Tech Journey and Vision at{" "}
-              <span className="text-red">DevChamp</span>
+              <span className="text-green">DevChamp</span>
             </h4>
             <div className="flex flex-col gap-3 font-outfit text-base md:text-[17px] text-slate-700">
               <p>

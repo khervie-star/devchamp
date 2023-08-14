@@ -17,7 +17,7 @@ const Hero = () => {
           <Pill>100% Satisfaction Guaranteed</Pill>
           <h4 className="mb-[30px] text-darkBlue text-[36px] md:text-[56px] font-semibold font-outfit">
             Unleash Your Potential:{" "}
-            <span className="text-red mr-2 relative">DevChamp</span>
+            <span className="text-green mr-2 relative">DevChamp</span>
             is Coming Soon!
           </h4>
           <p className="font-outfit text-base text-darkblue mb-[24px]">

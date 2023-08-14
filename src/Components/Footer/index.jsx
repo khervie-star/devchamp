@@ -15,7 +15,7 @@ const Footer = () => {
   const [mode, setMode] = React.useState("auto");
   return (
     <div className="mt-16">
-      <footer id="footer" className="footer relative z-50  bg-red pt-12">
+      <footer id="footer" className="footer relative z-50  bg-green pt-12">
         <div className="mx-auto container px-4 xl:px-12 2xl:px-4">
           <div className="">
             <div className="lg:flex border-b border-solid  border-white py-16">

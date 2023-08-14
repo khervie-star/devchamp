@@ -5,7 +5,7 @@ const WaitingList = () => {
   return (
     <div className="w-screen h-full px-[16px] md:px-[50px] py-6 md:py-[100px]">
       <div className="container mx-auto">
-        <div className="w-full md:w-[90%] mx-auto h-full bg-red rounded-[30px] py-[50px] md:py-[100px]">
+        <div className="w-full md:w-[90%] mx-auto h-full bg-green rounded-[30px] py-[50px] md:py-[100px]">
           <h2 className="font-semibold text-white text-center text-[28px] md:text-[45px] font-outfit mb-3">
             Get Started with <span className="text-yellow mx-2">DevChamp</span>{" "}
             Now!

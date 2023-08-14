@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-5 items-center my-10">
             <div className="h-[250px] bg-white rounded-[12px] p-4 shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)]">
               <div
-                className={`w-[60px] h-[45px] rounded-[8px] flex justify-center items-center text-[18px] mb-7 text-red bg-red/20`}>
+                className={`w-[60px] h-[45px] rounded-[8px] flex justify-center items-center text-[18px] mb-7 text-green bg-green/20`}>
                 <SlBadge />
               </div>
               <h4 className="text-[18px] font-bold font-montserrat text-darkBlue mb-3">
