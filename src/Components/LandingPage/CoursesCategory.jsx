@@ -47,7 +47,7 @@ const CoursesCategory = () => {
             </div>
           </div>
           <div class="relative group w-[250px] h-[250px]">
-            <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-yellow-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <div class="relative px-7 py-6 bg-white w-[250px] h-[250px] ring-1 ring-gray-900/5 rounded-lg leading-none flex flex-col items-center justify-center space-y-6">
               <div className="text-[50px]  w-[80%]  text-slate-800 group-hover:text-indigo-400 transition duration-200">
                 {/* <FaPhp /> */}

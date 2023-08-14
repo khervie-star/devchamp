@@ -122,7 +122,7 @@ const Footer = () => {
                   <p className="font-outfit font-semibold text-white text-[24px] mb-5">
                     Contact
                   </p>
-                  <ul className="flex flex-col gap-3">
+                  <ul className="flex flex-col gap-3 text-[13px] md:text-base">
                     <li className="location flex items-start gap-2">
                       <div className="text-yellow mt-1">
                         <HiLocationMarker />
@@ -137,7 +137,7 @@ const Footer = () => {
                       <div className="text-yellow mt-1">
                         <HiEnvelope />
                       </div>
-                      {/* <div className="text-white">support@devchamp.io</div> */}
+                      {/* <p className="text-white">support@devchamp.io</p> */}
                     </Link>
                     <Link
                       className="location flex items-start gap-2"
