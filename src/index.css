@@ -102,3 +102,8 @@ nav a:after {
 nav a:hover:after {
   width: 100%;
 }
+
+/* Hero Images */
+.hero_img canvas {
+  border-radius: 9999px;
+}
